@@ -79,11 +79,52 @@ function decode(word) {
             return word[3];
             break;
         case "d":
-            return word[4]
+            return word[4];
             break;
         default:
             return " ";
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> fdbe8466917309034df864747c065cda308a5cae
+=======
+function daysInMonth (month, leapYear) {
+    if (leapYear && month === "February") {
+        return 29;
+    }
+    switch(month) {
+        case "January", "March", "May", "July", "August", "October", "December": 
+            return 31;
+            break;
+        case "April", "June", "September", "November":
+            return 30;
+            break;
+        case "February":
+            return 28;
+            break;
+        default:
+            return "Not a month";
+    }
+}
+console.log(daysInMonth("December", true));
+
+function rockPaperScissors(number) {
+    console.log(number);
+    if (number !== 1 && number!== 2 && number !== 3) {
+        throw new Error("Not a valid number");
+    }
+    const randomNo = Math.floor(Math.random() * 3) + 1;
+    console.log(randomNo);
+    if (randomNo === number) {
+        return "It's a tie!"
+    } else if (number === 1 && randomNo === 2 || number === 2 && randomNo === 3 || number === 3 && randomNo === 1) {
+        return "You win!"
+    } else if (randomNo === 1 && number === 2 || randomNo === 2 && number === 3 || randomNo === 3 && number === 1) {
+        return "The computer wins!"
+    }
+
+}
+
+console.log(rockPaperScissors(1));
+>>>>>>> 1813e42604cb0b3a61840cc8193a18ad69e3f99a
