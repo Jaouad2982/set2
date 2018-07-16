@@ -24,6 +24,7 @@ function beyond(num){
 let myval = beyond(12);
 console.log(myval);
 
+<<<<<<< HEAD
 
 // not all months are displayed in this function. but the same procedure would work for all of them.
 // we can also use an array. or put all the months ( case ['january','december',' .....', ' .......'......]);
@@ -49,3 +50,40 @@ function checkMonth(month,year){
 
 let varia = checkMonth('January',true);
 console.log("there are " + varia + " days");
+=======
+// 'craft block argon meter bells brown croon droop'.
+//'a' = 2, 'b' = 3, 'c' = 4, or 'd' = 5
+// cycle is l
+
+/*
+function decode(sentence) {
+    let array = sentence.split(" ");
+    for (let i = 0; i < array.length; i++) {
+
+    }
+    // check what each word starts with, replace based on what it starts with
+    // return the tied back array
+
+}
+*/
+
+function decode(word) {
+    switch(word[0]) {
+        case "a":
+            return word[1];
+            break;
+        case "b":
+            return word[2];
+            break;
+        case "c":
+            return word[3];
+            break;
+        case "d":
+            return word[4]
+            break;
+        default:
+            return " ";
+    }
+}
+
+>>>>>>> fdbe8466917309034df864747c065cda308a5cae
