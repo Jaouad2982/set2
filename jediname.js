@@ -23,3 +23,29 @@ function beyond(num){
 
 let myval = beyond(12);
 console.log(myval);
+
+
+// not all months are displayed in this function. but the same procedure would work for all of them.
+// we can also use an array. or put all the months ( case ['january','december',' .....', ' .......'......]);
+function checkMonth(month,year){
+    let day = 0;
+
+    switch(month){
+        case 'January':
+        case 'march':
+        case 'may':
+        day = 31;
+        break ;
+        case 'February':
+        day = 28;
+        break;
+        day = 0 ;
+        break;
+    }
+    return day;
+
+
+}
+
+let varia = checkMonth('January',true);
+console.log("there are " + varia + " days");
