@@ -24,7 +24,6 @@ function beyond(num){
 let myval = beyond(12);
 console.log(myval);
 
-<<<<<<< HEAD
 
 // not all months are displayed in this function. but the same procedure would work for all of them.
 // we can also use an array. or put all the months ( case ['january','december',' .....', ' .......'......]);
@@ -86,8 +85,7 @@ function decode(word) {
     }
 }
 
-<<<<<<< HEAD
->>>>>>> fdbe8466917309034df864747c065cda308a5cae
+
 =======
 function daysInMonth (month, leapYear) {
     if (leapYear && month === "February") {
@@ -127,4 +125,3 @@ function rockPaperScissors(number) {
 }
 
 console.log(rockPaperScissors(1));
->>>>>>> 1813e42604cb0b3a61840cc8193a18ad69e3f99a
