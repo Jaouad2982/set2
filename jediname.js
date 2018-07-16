@@ -49,7 +49,7 @@ function checkMonth(month,year){
 
 let varia = checkMonth('January',true);
 console.log("there are " + varia + " days");
-=======
+
 // 'craft block argon meter bells brown croon droop'.
 //'a' = 2, 'b' = 3, 'c' = 4, or 'd' = 5
 // cycle is l
@@ -86,7 +86,6 @@ function decode(word) {
 }
 
 
-=======
 function daysInMonth (month, leapYear) {
     if (leapYear && month === "February") {
         return 29;
